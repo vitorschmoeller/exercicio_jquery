@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+body{
+    background-color: #392620;
+    /*background-color: rgb(141, 202, 157); */
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    background: #d66e4e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 550px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.37);
+    height: 500px;
+    
+}
+
+header{
+    text-align: center;
+    padding: 20px;   
+    width: 500px;
+    margin: auto;   
+}
+
+#formulario{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+button{
+    background-color: aliceblue none;
+    box-shadow: 1px 1px 2px;
+    cursor: pointer;
+}
+
+.lista{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.37);
+    background-color: aliceblue;
+    color: black;
+    border: solid 1px;
+}
+li{
+    padding: 5px;
+    /*text-decoration: line-through none;*/
+    cursor: pointer;
+    
+    
+}
+
+li h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    cursor: default;
+    
+}
+
+
